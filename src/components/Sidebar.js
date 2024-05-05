@@ -52,8 +52,8 @@ export default function Sidebar() {
           return (
             <li
               key={name}
-              className={`pl-6 py-3 hover:bg-zinc-600 ${
-                name === "Home" ? "bg-slate-600" : " "
+              className={`pl-6 py-3 hover:bg-zinc-700 ${
+                name === "Home" ? "bg-zinc-700" : " "
               } rounded-xl`}
             >
               <a href="#" className="flex items-center gap-5">
